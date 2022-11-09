@@ -7,6 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body button {
+  border: none;
+  padding: 10px;
+  border-radius: 15%;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+body button:active {
+  scale: 0.9;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
